@@ -1,17 +1,29 @@
-import About from "./layout/About/About"
+import {useState, useEffect } from "react"
 import Expertise from "./layout/Expertise/Expertise"
 import Footer from "./layout/Footer/Footer"
-import Header from "./layout/Header/Header"
 import Hero from "./layout/Hero/Hero"
+import Loader from "./components/Loader/Loader"
+import Projects from "./layout/Projects/Projects"
+
 
 function App() {
-  return (
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false)
+    }, 3000)
+  }, [])
+
+  return loading ? (
+    <Loader /> ) : (
     <>
-      <div className="app">
-        <Header />
+      <div className="app">  
+        
         <Hero />
         <Expertise />
-        <About />
+        <Projects />
         <Footer />
       </div>
     </>
