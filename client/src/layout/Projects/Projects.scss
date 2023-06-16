@@ -1,17 +1,21 @@
 @import '../../main.scss';
 
 .projects {
-    margin-top: 10%;
-    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+    &__title {
+        font-size: 5rem;
+        color: #09f1b8;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
     &__content {
-        margin-top: 10vh;
-        margin-bottom: 10vh;
+        margin-bottom: 10%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -22,16 +26,21 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .projects {
- 
-         &__content {
-             margin-top: 10vh;
-             margin-bottom: 10vh;
-             display: grid;
-             grid-template-columns: repeat(1, 1fr);
-             grid-template-rows: repeat(6, 1fr);
-             grid-column-gap: 30px;
-             grid-row-gap: 25px;    
-         }
+        margin-top: 100px;
+
+        &__title {
+            font-size: 3rem;
+            margin-top: 10%;
+        }
+
+        &__content {
+            width: 90%;
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
  
  }

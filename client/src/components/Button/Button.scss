@@ -5,7 +5,7 @@ button {
     height: 100px;
     width: 250px;
     border-radius : 5px;
-    border : 2px solid #bf773c;
+    border : 2px solid #09f1b8;
     cursor: pointer;
     padding: 5px;
     background-color : transparent;
@@ -15,8 +15,8 @@ button {
 }
 
 button:hover {
-    background-color: #bf773c;
-    color: $color-5;
+    background-color: #09f1b8;
+    color: black;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

@@ -1,0 +1,140 @@
+.offres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__title {
+        margin-top: 6%;
+        font-size: 4rem;
+        color: #09f1b8;
+        margin-bottom: 2rem;
+    }
+
+    &__legends {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+        color: #fff;
+    }
+
+    &__container {
+        margin-top: 2%;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    &__card {
+        width: 30%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__head {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        color: #fff;
+
+        &__title {
+            color: #09f1b8;
+            font-size: 2.25rem;
+            font-weight: bold;
+        }
+
+        &__prix {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #000;
+        }
+
+        &__img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+            padding: 2%;
+            color: #385a64;
+            font-size: 1rem;
+            font-weight: bold;
+
+            &__item {
+                margin-bottom: 1rem;
+            }
+        }
+
+
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        cursor: pointer;
+
+        &__link {
+            text-decoration: none;
+            padding: 1rem;
+            color: #385a64;
+
+            &:hover {
+                background-color: #09f1b8;
+                border: #09f1b8 solid 1px;
+                border-radius: 30px;
+                color: #000;
+            }
+        }
+    }
+}
+
+// Media Queries for mobile devices
+@media only screen and (max-width: 768px) {
+    .offres {
+
+        align-items: center;
+        justify-content: center;
+
+        &__title {
+            font-size: 1.5rem;
+        }
+
+        &__legends {
+            font-size: 1rem;
+        }
+
+        &__container {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__card {
+            width: 80%;
+            margin-left: 0;
+            margin-right: 0;
+            margin-bottom: 2rem;
+        }
+    }
+}

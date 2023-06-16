@@ -46,7 +46,7 @@ function Scene({ margin = 0.5 }) {
           size={isMobile ? 0.85 : 0.9}
           font="/Inter_Bold.json"
         >
-          {`   Alain  \n   Wodie `}
+          {`WAA`}
 
           <meshNormalMaterial />
         </Text3D>

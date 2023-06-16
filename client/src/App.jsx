@@ -1,32 +1,25 @@
-import {useState, useEffect } from "react"
-import Expertise from "./layout/Expertise/Expertise"
+
 import Footer from "./layout/Footer/Footer"
-import Hero from "./layout/Hero/Hero"
-import Loader from "./components/Loader/Loader"
-import Projects from "./layout/Projects/Projects"
+import Header from "./layout/Header/Header"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Home from "./pages/Home/Home"
+import Offres from "./pages/Offres/Offres" 
+import Contact from "./pages/Contact/Contact"
 
 
 function App() {
-
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false)
-    }, 3000)
-  }, [])
-
-  return loading ? (
-    <Loader /> ) : (
-    <>
-      <div className="app">  
-        
-        <Hero />
-        <Expertise />
-        <Projects />
+  return (
+    <Router>
+      <div className="app">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/offres" element={<Offres />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
         <Footer />
       </div>
-    </>
+    </Router>
   )
 }
 

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$color-background: #000119;
+$stroke-width: calc(1em / 16);
+$font-size: 30vmin;
+$font-weight: 700;
+$letter-spacing: calc(1em / 8);
+
+$color-hero-5: #09f1b8;
+$color-hero-4: #00a2ff;
+$color-hero-3: #7207ab;
+$color-hero-1: #fed90f;
+$color-hero-2: #b91ee8;
+
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+  &__container {
+    margin-top: 5%;
+    padding: 1.5rem;   
+    text-align: center;
+  }
+
+  &__title {
+    font-family: "Exo", sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    width: 100%;
+    margin: auto;
+    text-transform: uppercase;
+    background: linear-gradient(219deg, 
+      $color-hero-1 19%, 
+      transparent 19%,transparent 20%, 
+      $color-hero-2 20%, $color-hero-2  39%,
+      transparent 39%,transparent 40%, 
+      $color-hero-3 40%, $color-hero-3 59% ,
+      transparent 59%,transparent 60%, 
+      $color-hero-4 60%, $color-hero-4 79%,
+      transparent 79%, transparent 80%, 
+      $color-hero-5 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  &__button {
+    margin: 2rem;
+    padding: 1rem 2rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    background: transparent;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+
+    &:hover {
+      border: #09f1b8;
+      background: $color-hero-5;
+      color: #000;
+    }
+  }
+}
+
+
+.top-title {
+  font-size: 3rem;
+  color: #fff;
+}
+
+
+.fancy {
+  @supports (background-clip: text) or (-webkit-background-clip: text) {
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 100% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 5rem;
+    margin-top: 0;
+  }
+}
+ 
+ // Media Queries for mobile devices
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .name {
+    &__container {
+      width: 100%;
+    }
+
+    &__title {
+      font-size: 3rem;
+    }
+
+    &__offres {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__button {
+      margin: 1rem;
+      padding: 1rem 2rem;
+      border: 2px solid #fff;
+      border-radius: 2rem;
+      background: transparent;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      text-decoration: none;
+  
+      &:hover {
+        border: #09f1b8;
+        background: $color-hero-5;
+        color: #000;
+      }
+    }
+  }
+  
+  .fancy {
+    font-size: 2rem;
+  }
+}

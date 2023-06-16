@@ -1,25 +1,66 @@
 import "./Footer.scss"
 import Button from "../../components/Button/Button"
-
-import maltLogo from "../../assets/malt.png"
+import { Link } from "react-router-dom"
 
 function Footer() {
   return (
     <div className='footer'>
-        
-          <h2 className="footer__title">
-            Je suis actuellement à la recherche de mission en Freelance.
-          </h2>
-          <Button
-            classname="contact__button"
-            action="Me contacter"
-            onClick={() => (window.location = "mailto:contact@agroproannonce.com")}
-          ></Button>
-            <a href="https://www.malt.fr/profile/alainwodie?q=Alain+Wodie&searchid=6478689ca64b7013d557fc44" target="_blank" className="footer__a">
-              <img src={maltLogo} className="footer__link " alt="malt logo" />
-              <h2 className="footer__pro">Venez voir mon profil Malt</h2>
-            </a>      
-     
+      <div className='footer__container'>
+        <section className="footer__sec">
+          <h2 className="footer__sec__title waa-spec">WAA</h2>
+          <ul className="footer__sec__ul">
+            <li className="footer__sec__li">
+              <p className="footer__sec__li">N°de SIRET -	84964444800037</p>
+            </li>
+            <li className="footer__sec__li">
+              <p className="footer__sec__li">Adresse postale -51 RUE AUDIBERT LAVIROTTE 69008 LYON</p>
+            </li>
+            <li className="footer__sec__li">
+              <p className="footer__sec__li">Support - +33 6 42 47 65 15</p>
+            </li>
+          </ul>
+        </section>
+        <section className="footer__sec">
+          <h2 className="footer__sec__title">Site</h2>
+          <ul className="footer__sec__ul">
+            <li className="footer__sec__li">
+            <Link className="footer__sec__li" to="/">Accueil</Link>
+            </li>
+            <li className="footer__sec__li">
+              <Link className="footer__sec__li" to="/offres">Offres</Link>
+            </li>
+            <li className="footer__sec__li">
+              <a className="footer__sec__li" href="https://www.malt.fr/profile/alainwodie?q=alain+wodie&searchid=648b15662f119c29acf88aaf">Mission Malt</a>
+            </li>
+          </ul>
+        </section>
+        <section className="footer__sec">
+          <h2 className="footer__sec__title">Informations</h2>
+          <ul className="footer__sec__ul">
+            <li className="footer__sec__li">
+              <Link className="footer__sec__li" to="/contact">Nous contacter</Link>
+            </li>
+          </ul>
+        </section>
+        <section className="footer__sec">
+          <h2 className="footer__sec__title">Liens externes</h2>
+          <ul className="footer__sec__ul">
+          <li className="footer__sec__li">
+            <a className="footer__sec__li" href="https://www.malt.fr/profile/alainwodie?q=alain+wodie&searchid=648b15662f119c29acf88aaf">Malt</a>
+          </li>
+          <li className="footer__sec__li">
+            <a className="footer__sec__li" href="https://agroproannonce.shop/fr/">Agropro Annonce</a>
+          </li>
+          <li className="footer__sec__li">
+            <a className="footer__sec__li" href="http://kevin-rakotoniaina.com/">Kévin - Développeur</a>
+          </li> 
+          
+          </ul>
+        </section>
+      </div>
+      <p className="footer__copyright">Copyright © 2023 - 
+      <span className="footer__waa">WAA-AGROPRO.</span>
+      {" "} All Rights Reserved.</p>
     </div>
   )
 }

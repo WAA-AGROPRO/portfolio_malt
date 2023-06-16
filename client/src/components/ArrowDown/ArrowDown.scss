@@ -45,3 +45,9 @@
     animation-delay:0s;
     -webkit-animation-delay:0s; /* Safari 和 Chrome */
   }
+
+  @media only screen and (max-width: 768px) {
+    .arrows {
+        display: none;
+    }
+  }
