@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.70.0",
     "@react-three/fiber": "^8.13.0",
     "@react-three/rapier": "^1.0.0",
     "@types/lodash": "^4.14.195",
     "@types/three": "^0.152.1",
+    "axios": "^1.4.0",
     "framer-motion": "^10.12.16",
     "leva": "^0.9.34",
     "popmotion": "^11.0.5",

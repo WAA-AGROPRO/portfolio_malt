@@ -1,5 +1,4 @@
 import "./Footer.scss"
-import Button from "../../components/Button/Button"
 import { Link } from "react-router-dom"
 
 function Footer() {
@@ -37,8 +36,14 @@ function Footer() {
         <section className="footer__sec">
           <h2 className="footer__sec__title">Informations</h2>
           <ul className="footer__sec__ul">
-            <li className="footer__sec__li">
+          <li className="footer__sec__li">
               <Link className="footer__sec__li" to="/contact">Nous contacter</Link>
+            </li>
+            <li className="footer__sec__li">
+              <Link className="footer__sec__li" to="/cgv">Conditions Générales de Vente</Link>
+            </li>
+            <li className="footer__sec__li">
+              <Link className="footer__sec__li" to="/politique_confidentialite">Politiques de confidentialité</Link>
             </li>
           </ul>
         </section>

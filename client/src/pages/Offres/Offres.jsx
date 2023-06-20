@@ -25,8 +25,8 @@ function Offres() {
                     </ul>
                 </div>
                 <div className="offres__footer">
-                <a onClick={() => (window.location = "mailto:contact@agroproannonce.com")} className="offres__footer__link">Contactez-nous</a>
-     
+                
+                <Link to="/contact" className="offres__footer__link">Contactez-nous</Link>  
                    
                 </div>
             </section>
@@ -47,8 +47,7 @@ function Offres() {
                     </ul>
                 </div>
                 <div className="offres__footer">
-                    
-                <a onClick={() => (window.location = "mailto:contact@agroproannonce.com")} className="offres__footer__link">Contactez-nous</a>
+                <Link to="/contact" className="offres__footer__link">Contactez-nous</Link>      
                 </div>
             </section>      
             <section className="offres__card">
@@ -69,8 +68,7 @@ function Offres() {
                     </ul>
                 </div>
                 <div className="offres__footer">
-                    
-                <a onClick={() => (window.location = "mailto:contact@agroproannonce.com")} className="offres__footer__link">Contactez-nous</a>
+                <Link to="/contact" className="offres__footer__link">Contactez-nous</Link>  
                 </div>
             </section>
         </main>
