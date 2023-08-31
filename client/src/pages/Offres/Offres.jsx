@@ -14,7 +14,8 @@ function Offres() {
                 <div className="offres__head">
                     <h3 className="offres__head__title">Basic</h3>
                         <img src={basicLogo} className="offres__head__img" alt="standard logo Designed by slidesgo / Freepik" />
-                    <h4 className="offres__head__prix">400 €</h4>
+                    <h4 className="offres__head__prix">
+                    <span className="apartir">À partir de </span>400 €</h4>
                 </div>
                 <div className="offres__content">
                     <ul className="offres__content__list">
@@ -34,7 +35,9 @@ function Offres() {
                 <div className="offres__head">
                     <h3 className="offres__head__title">Standard</h3>
                     <img src={standardLogo} className="offres__head__img" alt="standard logo Designed by slidesgo / Freepik" />
-                    <h4 className="offres__head__prix">900 €</h4>
+                    <h4 className="offres__head__prix">
+                    <span className="apartir">À partir de </span>
+                        900 €</h4>
                 </div>
                 <div className="offres__content">
                 <ul className="offres__content__list">
@@ -54,7 +57,9 @@ function Offres() {
                 <div className="offres__head">
                     <h3 className="offres__head__title">Premium</h3>
                     <img src={premiumLogo} className="offres__head__img" alt="standard logo Designed by slidesgo / Freepik" />
-                    <h4 className="offres__head__prix">1400 €</h4>
+                    <h4 className="offres__head__prix">
+                    <span className="apartir">À partir de </span>
+                        1400 €</h4>
                 </div>
                 <div className="offres__content">
                 <ul className="offres__content__list">

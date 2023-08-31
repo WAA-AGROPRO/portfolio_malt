@@ -15,7 +15,7 @@ function Footer() {
               <p className="footer__sec__li">Adresse postale -51 RUE AUDIBERT LAVIROTTE 69008 LYON</p>
             </li>
             <li className="footer__sec__li">
-              <p className="footer__sec__li">Support - +33 6 42 47 65 15</p>
+              <p className="footer__sec__li">Support</p>
             </li>
           </ul>
         </section>

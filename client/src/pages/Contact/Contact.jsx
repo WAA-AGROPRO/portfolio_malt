@@ -8,14 +8,15 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_w9eszsf', 'template_mnujzsc', form.current, 'UqCJw5_Jvurowiill')
+    emailjs.sendForm('service_w9eszsf', 'template_mnujzsc', form.current, 'aHEIFD2aCuOAb90Uc')
     .then((result) => {
         console.log(result.text);
         window.alert('Votre message a été envoyé avec succès!');
-        window.location.reload();
+        form.current.reset();
     }, (error) => {
         console.log(error.text);
-        window.location.reload();
+        window.alert('Une erreur est survenue, veuillez réessayer.');
+        form.current.reset();
     });
   }
 

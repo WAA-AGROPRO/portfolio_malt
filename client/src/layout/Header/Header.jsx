@@ -7,9 +7,10 @@ function Header() {
     <div className="header">
       <Link to="/" className="sweet-title header__logo">WAA</Link>
       <div className="header__nav">
-        <Link to="/offres" className="header__link">Offre</Link>
-        <a href="https://www.malt.fr/project/new?q=Alain+Wodie&viewId=648ac8287891d212d9e1845a&searchid=648ac817d5cb10275a73aedb&freelanceId=642acf3a8159307a3f4d2e5b" className="header__link" target="_blank" rel="noreferrer">Mission</a>
-        <Link to="/contact" className="header__link">Contact</Link>
+        <Link to="/offres" className="header__link">Nos tarifs</Link>
+        <Link to="/projets" className="header__link">Nos réalisations</Link>
+        <Link to="/informations" className="header__link">Notre blog</Link>
+        <Link to="/contact" className="header__link">Nous contactez</Link>
       </div>
     </div>
   )

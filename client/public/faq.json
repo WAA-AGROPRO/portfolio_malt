@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "question": "Quel est le but d'une application mobile ?",
+        "reponse": "Un des principaux avantages de développer une application mobile est qu'elle offre une meilleure expérience utilisateur.En effet, la navigation sur une application est plus facile par rapport à un site web sur mobile."
+    },
+    {
+        "id": 2,
+        "question": "Quel est l'utilité de l'application ?",
+        "reponse": "Les applications sont des outils que vous utilisez pour ajouter plus de fonctionnalités à votre boutique, qui facilitent l'utilisation de la boutique, la communication avec le client, la commercialisation des produits et plusieurs autres fonctionnalités."
+    },
+    {
+        "id": 3,
+        "question": "Quels sont les objectifs d'une application ?",
+        "reponse": "Les applications ont pour objectif d'apporter des solutions concrètes à de nombreux problèmes rencontrés par les utilisateurs et aux requêtes qu'ils envoient. L'objectif principal est la résolution de problèmes ou de questions clairement définis."
+    },
+    {
+        "id": 4,
+        "question": "Pourquoi mettre en place une application ?",
+        "reponse": "Un des principaux avantages d'une application mobile est qu'elle améliore l'image de marque. Elle renvoie l'image d'une société innovante, évolutive, à l'écoute de ses clients. L'application permet également d'accroître la visibilité en ligne d'une entreprise."
+    },
+    {
+        "id": 5,
+        "question": "Quels sont les avantages d' une application ?",
+        "reponse": "La principale raison pour laquelle vous devriez choisir avec un développement d'application Web est l'accessibilité. Elle offre une grande mobilité et un accès facile à partir de n'importe quel appareil mobile, n'importe où et à tout moment avec une simple connexion Internet."
+    },
+    {
+        "id": 6,
+        "question": "Quelle est la fonction la plus importante d'une application d'entreprise ?",
+        "reponse": "Elle a pour but d'augmenter la productivité des employés, de gérer de manière efficace les données et d'optimiser certains processus. L'application mobile d'entreprise a pour objectif de répondre aux besoins spécifiques d'une organisation."   
+    },
+    {
+        "id": 7,
+        "question": "Quel est le coût d'une application mobile ?",
+        "reponse": "Application d'e-commerce : entre 15 000 et 50 000 €,  Jeu : entre 30 000 et 70 000 €, Réseau social : entre 15 000 et 30 000 €, jusqu'à plus de 90 000 €"
+    },
+    {
+        "id": 8,
+        "question": "Quelle est la différence entre application web et application mobile ?",
+        "reponse": "Les applications natives sont des applications mobiles que l'on télécharge à partir de Google play ou de l'APP store. Elles peuvent utiliser les fonctionnalités du téléphone. L'application web est différente car elle se développe à partir des mêmes bases qu'un site internet, et n'a pas besoin d'être téléchargée."
+    }
+]

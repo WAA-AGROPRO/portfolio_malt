@@ -3,7 +3,7 @@
 $font-logo: 'Oswald', sans-serif;
 $color-background: #000119;
 $stroke-width: calc(1em / 16);
-$font-size: 5rem;
+$font-size: 3.5rem;
 $font-weight: 700;
 $letter-spacing: calc(1em / 8);
 
@@ -28,11 +28,10 @@ $letter-spacing: calc(1em / 8);
         text-decoration: none;
         color: #fff;
         font-size: 1.5rem;
-        margin-right: 25px;
+        margin-right: 40px;
 
         &:hover {
             color: #09f1b8;
-            text-decoration: underline;
         }
     }
 }
