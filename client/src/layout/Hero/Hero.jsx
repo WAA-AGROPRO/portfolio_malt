@@ -5,7 +5,7 @@ import Name from "../../components/Name/Name";
 
 function Hero() {
   return (
-        <div className="hero">
+        <div className="main-hero">
             <Name />
           <ArrowDown />
           </div>

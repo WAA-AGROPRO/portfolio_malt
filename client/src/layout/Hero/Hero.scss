@@ -1,16 +1,16 @@
 @import '../../main.scss';
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700;900&display=swap");
 
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20%;
-  height: 100%;
+.main-hero {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20%;
+     height: 100%;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-     .hero {
+     .main-hero {
           display: flex;
           align-items: center;
           justify-content: center;

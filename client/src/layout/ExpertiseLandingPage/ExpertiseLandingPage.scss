@@ -1,0 +1,52 @@
+
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-copy {
+        width: 40%;
+    }
+    &__title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: #09f1b8;
+    }
+
+    &__paragraph {
+        font-size: 1.1rem;
+        font-weight: 400;
+        text-align: justify;
+        margin-bottom: 1rem;
+        margin: 5%;
+    }
+
+    &__btn {
+       
+        border: 2px solid #09f1b8;
+        margin: 3%;
+        background: none;
+        border-radius: 5px;
+        color: #09f1b8;
+        font-size: 1.15rem;
+        font-weight: 700;
+        padding: 10px 20px;
+        width: 120%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+    
+        &:hover {
+            background-color: #09f1b8;
+            color: #10151E;
+        }   
+    }
+
+
+}

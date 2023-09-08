@@ -4,56 +4,32 @@
       "title": "Découvrez comment un site web responsive peut transformer votre expérience en ligne !",
       "description": "Lorsqu’il s’agit de créer un site web pour votre entreprise, il est important de tenir compte de la façon dont les gens accèdent à Internet.",
       "image": "../assets/article_1.webp",
-      "view": 1,
-        "date": "2020-01-01"
+      "view": "1.5k",
+        "date": "2023-04-21"
     },
     {
         "id": 2,
         "title": "Le secret pour créer une application B2B qui explose vos profits !",
         "description": "Développer une application B2B (Business to Business) est un atout pour votre entreprise. Vous pouvez ainsi améliorer la relation client, automatiser des tâches.",
         "image": "../assets/article_2.webp",
-        "view": 2,
-        "date": "2020-01-02"
+        "view": "2.3k",
+        "date": "2023-06-08"
     },
     {
         "id": 3,
         "title": "Les 7 étapes cruciales pour un référencement SEO parfait",
         "description": "Améliorez la visibilité de votre site web en suivant ces étapes pour un référencement SEO optimal. Augmentez le trafic organique et atteignez un public plus large.",
         "image": "../assets/article_3.webp",
-        "view": 120,
-        "date": "2020-01-03"
+        "view": "1.2k",
+        "date": "2023-07-03"
       },
       {
         "id": 4,
         "title": "Une app iOS et Android entre 3 et 15 k€, comment est-ce possible ?",
         "description": "WAA innove en concevant des outils mobile pour nos clients. Pour créer des applications à vos cotés, nous utilisons notre logiciel de création d'application FlutterFlow et Firebase.",
         "image": "../assets/article_4.webp",
-        "view": 45,
-        "date": "2020-01-04"
-      },
-      {
-        "id": 5,
-        "title": "Les secrets de la création d'une expérience utilisateur exceptionnelle",
-        "description": "Attirez et fidélisez vos utilisateurs en créant une expérience utilisateur exceptionnelle. Découvrez les astuces qui font la différence dans la satisfaction de vos clients.",
-        "image": "../assets/article_2.webp",
-        "view": 76,
-        "date": "2020-01-05"
-      },
-      {
-        "id": 6,
-        "title": "Les avantages méconnus de l'intégration continue en développement logiciel",
-        "description": "L'intégration continue n'est pas seulement pour les grandes entreprises. Découvrez comment cette pratique peut améliorer la qualité de votre code et accélérer les déploiements.",
-        "image": "../assets/article_1.webp",
-        "view": 33,
-        "date": "2020-01-06"
-      },
-      {
-        "id": 7,
-        "title": "Comment tirer parti des chatbots pour améliorer votre service client",
-        "description": "Les chatbots révolutionnent la façon dont les entreprises interagissent avec leurs clients. Découvrez comment les intégrer intelligemment pour fournir un service client exceptionnel.",
-        "image": "../assets/article_2.webp",
-        "view": 62,
-        "date": "2020-01-07"
+        "view": "4.5k",
+        "date": "2023-08-04"
       }
   ]
   

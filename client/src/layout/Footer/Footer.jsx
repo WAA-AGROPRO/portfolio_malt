@@ -16,6 +16,7 @@ function Footer() {
             </li>
             <li className="footer__sec__li">
               <p className="footer__sec__li">Support</p>
+              <p className="footer__sec__li">+33 (0) 9 81 92 21 38</p>
             </li>
           </ul>
         </section>
@@ -27,6 +28,9 @@ function Footer() {
             </li>
             <li className="footer__sec__li">
               <Link className="footer__sec__li" to="/offres">Offres</Link>
+            </li>
+            <li className="footer__sec__li">
+              <Link className="footer__sec__li" to="/informations">Blog</Link>
             </li>
             <li className="footer__sec__li">
               <a className="footer__sec__li" href="https://www.malt.fr/profile/alainwodie?q=alain+wodie&searchid=648b15662f119c29acf88aaf">Mission Malt</a>

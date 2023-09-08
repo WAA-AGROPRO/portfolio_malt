@@ -1,0 +1,37 @@
+.coming-soon {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        color: white;
+    }
+
+    &__btn {
+        border: 2px solid #09f1b8;
+        margin: 3%;
+        background: none;
+        border-radius: 5px;
+        color: #09f1b8;
+        font-size: 1.15rem;
+        font-weight: 700;
+        padding: 10px 20px;
+        width: 350px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+    
+        &:hover {
+            background-color: #09f1b8;
+            color: #10151E;
+        }  
+    }
+}

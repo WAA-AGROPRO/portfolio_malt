@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import ArticleBlog from '../../components/ArticleBlog/ArticleBlog'
 import axios from "axios"
 import { Link } from "react-router-dom"
+import Faq from '../../layout/Faq/Faq'
 import "./Informations.scss"
 
 function Informations() {
@@ -23,6 +24,7 @@ function Informations() {
         <ArticleBlog key={article.id} article={article} />
       ))}
         </div>
+        <Faq />
         <Link to="/contact" className="informations__button">
             J'ai un projet à soumettre
         </Link>
