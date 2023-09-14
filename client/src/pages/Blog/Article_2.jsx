@@ -5,9 +5,9 @@ function Article_2() {
   return (
     <main className='blog'>
         <h1 className="blog__title back_2">
-          <span className="blog__title__text">
+          <div className="blog__title__text">
           Le secret pour créer une application B2B qui explose vos profits !
-          </span>
+          </div>
           <p className="blog__infos__author">Par {" "}<span className="blog__infos__author__name">{" "} W. Alain</span></p>
         </h1>
         <div className="blog__content">

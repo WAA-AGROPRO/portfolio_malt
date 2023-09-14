@@ -5,9 +5,9 @@ function Article_4() {
   return (
     <main className='blog'>
         <h1 className="blog__title back_4">
-          <span className="blog__title__text">
+          <div className="blog__title__text">
           Une app iOS et Android entre 3 et 15 k€, comment est-ce possible ?
-          </span>
+          </div>
           <p className="blog__infos__author">Par {" "}<span className="blog__infos__author__name">{" "} W. Alain</span></p>
         </h1>
         <div className="blog__content">

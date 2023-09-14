@@ -71,3 +71,10 @@
     flex-direction: row;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 767px) {
+    .article-blog {
+        height: 100%;
+        margin-bottom: 10%;
+    }
+}

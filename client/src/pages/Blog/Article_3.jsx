@@ -5,9 +5,9 @@ function Article_3() {
   return (
     <main className='blog'>
         <h1 className="blog__title back_3">
-          <span className="blog__title__text">
+          <div className="blog__title__text">
           Les 7 étapes cruciales pour un référencement SEO parfait
-          </span>
+          </div>
           <p className="blog__infos__author">Par {" "}<span className="blog__infos__author__name">{" "} R. Kévin</span></p>
         </h1>
         <div className="blog__content">

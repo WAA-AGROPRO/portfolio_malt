@@ -5,9 +5,9 @@ function Article_1() {
   return (
     <main className='blog'>
         <h1 className="blog__title back_1">
-          <span className="blog__title__text">
+          <div className="blog__title__text">
             Découvrez comment un site web responsive peut transformer votre expérience en ligne !
-          </span>
+          </div>
           <p className="blog__infos__author">Par {" "}<span className="blog__infos__author__name">{" "} W. Alain</span></p>
         </h1>
         <div className="blog__content">

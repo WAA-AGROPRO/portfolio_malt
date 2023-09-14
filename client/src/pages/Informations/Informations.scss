@@ -39,3 +39,16 @@
         }   
     }
 }
+
+@media screen and (max-width: 767px) {
+    .informations {
+
+        &__articles {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+    }
+}

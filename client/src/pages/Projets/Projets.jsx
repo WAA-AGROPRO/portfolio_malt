@@ -34,7 +34,6 @@ function Projets() {
           modifier: 1,
           slideShadows: true,
         }}
-        pagination={true}
         className="mySwiper"
       >
         {works.map((work) => (

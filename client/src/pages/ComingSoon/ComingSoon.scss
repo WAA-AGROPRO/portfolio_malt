@@ -35,3 +35,20 @@
         }  
     }
 }
+
+@media screen and (max-width: 767px) {
+    .coming-soon {
+
+        margin-bottom: 25%;
+        &__text {
+            font-size: 1.5rem;
+            text-align: center;
+            margin-bottom: 10%;
+        }
+    
+        &__btn {
+            font-size: 1.5rem;
+            width: 80%;
+        }
+    }
+}

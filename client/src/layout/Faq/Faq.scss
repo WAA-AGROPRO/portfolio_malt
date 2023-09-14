@@ -5,10 +5,10 @@
     align-items: center;
     justify-content: center;
     margin-top: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     
     &__title {
-        font-size: 5rem;
+        font-size: 4rem;
         color: #09f1b8;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -22,4 +22,14 @@
         justify-content: center;
     }
     
+}
+
+@media screen and (max-width: 767px) {
+    .faq {
+        margin-bottom: 20%;
+        
+        &__title {
+            font-size: 3rem;
+        }
+    }
 }

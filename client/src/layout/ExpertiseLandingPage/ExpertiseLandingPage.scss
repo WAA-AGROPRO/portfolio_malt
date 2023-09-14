@@ -47,6 +47,35 @@
             color: #10151E;
         }   
     }
+}
 
+@media screen and (max-width: 768px) {
+    .hero {
+        margin-top: 150px;
+        flex-direction: column-reverse;
+        overflow: visible;
 
+        &-copy {
+            width: 100%;
+            margin-bottom: 50px;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &-cta {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__paragraph {
+            text-align: center;
+        }
+
+        &__btn {
+            width: 80%;
+
+        }
+    }
 }

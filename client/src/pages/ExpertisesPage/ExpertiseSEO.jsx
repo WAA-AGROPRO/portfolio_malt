@@ -15,8 +15,8 @@ function ExpertiseSEO() {
     <div className="expertise-page">
       <section className="expertise-page__hero">
           <ExperitiselLandingPage
-            title="Création de site Web"
-            paragraph="Vous avez un projet de création ou de refonte de site ? Nous vous assurons un projet engageant et cohérent ! Que ce soit un site vitrine ou un site e-commerce, faites le choix de la performance et de l’élégance avec un site à votre image."
+            title="Référencement SEO"
+            paragraph="Boostez votre visibilité en ligne et augmentez vos conversions avec notre expertise en référencement SEO. Confiez-nous votre projet dès aujourd'hui et découvrez comment nous pouvons propulser votre site vers les sommets des moteurs de recherche."
           />
       </section>  
       {/* 
@@ -25,7 +25,7 @@ function ExpertiseSEO() {
       </section>
       */}
       <section className="expertise-page__etapes">
-        <h2 className="expertise-page__etapes__title">Les étapes pour un projet de site WEB réussie</h2>
+        <h2 className="expertise-page__etapes__title">Les étapes pour un projet de référencement réussie</h2>
         <div className="expertise-page__etapes__container">
           <Etape 
             title="Audit SEO Initial par Notre Équipe d'Experts" 

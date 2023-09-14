@@ -15,7 +15,7 @@ function ExpertiseMobile() {
       <section className="expertise-page__hero">
           <ExperitiselLandingPage
             title="Création d'application Mobile"
-            paragraph="Vous avez un projet de création ou de refonte d'application mobile ? Nous vous assurons un projet engageant et cohérent ! Faites le choix de la performance et de l’élégance avec un site à votre image."
+            paragraph="Vous avez un projet de création ou de refonte d'application mobile ? Nous vous assurons un projet engageant et cohérent ! Faites le choix de la performance et de l’élégance avec une application à votre image."
           />
       </section>  
       {/* 
