@@ -10,7 +10,6 @@ function ExpertiseLandingPage(props) {
             <h1 className="hero__title">{props.title}</h1>
             <p className="hero__paragraph">{props.paragraph}</p>
             <div className="hero-cta">
-              <Link className="hero__btn" to="/coming-soon">Prendre RDV</Link>
               <Link className="hero__btn" to="/contact">Contactez-nous</Link>
             </div>
           </div>

@@ -57,24 +57,36 @@
         width: 60%;
 
         &__container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 5%;
-        }
-
-        &__bloc {
+            height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             align-items: center;
-            width: 35%;
+            margin-bottom: 5%;
+
+            &__title {
+                font-size: 2rem;
+                font-weight: 700;
+                color: #09f1b8;
+            }
+
+            &__text {
+                font-size: 1.15rem;
+            }
         }
+
+        
     }
 }
 
-
+.stars__avis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    color: #09f1b8;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
   // Media Queries for Responsive Design
   @media screen and (max-width: 767px) {
     .avis {

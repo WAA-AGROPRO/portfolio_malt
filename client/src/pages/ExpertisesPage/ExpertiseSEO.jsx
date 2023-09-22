@@ -49,7 +49,7 @@ function ExpertiseSEO() {
           />
           <Etape
             title="Optimisation d'Images et Média"
-            text="ous optimisons les images avec des balises ALT descriptives et intégrons des médias riches, tels que des vidéos et des images pertinentes."
+            text="Nous optimisons les images avec des balises ALT descriptives et intégrons des médias riches, tels que des vidéos et des images pertinentes."
             img={Feature_5}
           />
           <Etape
@@ -74,7 +74,7 @@ function ExpertiseSEO() {
             <br />
             Ce document vous permettra de définir vos besoins et vos attentes. Il vous permettra également de définir les objectifs de votre projet et de définir les moyens à mettre en place pour les atteindre.
           </p>
-          <Link to="/coming-soon" className="expertise-page__cdc__btn">Télécharger le modèle</Link>
+          <Link target="_blank" to="/coming-soon" className="expertise-page__cdc__btn">Télécharger le modèle</Link>
          </div>
         
       </section> 

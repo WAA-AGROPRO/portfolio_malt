@@ -33,10 +33,10 @@ function App() {
           <Route path="/politique_confidentialite" element={<PolitqueConfident />} />
           <Route path="/informations" element={<Informations />} />
           <Route path="/projets" element={<Projets />} />
-          <Route path="/article/1" element={<Article_1 />} />
-          <Route path="/article/2" element={<Article_2 />} />
-          <Route path="/article/3" element={<Article_3 />} />
-          <Route path="/article/4" element={<Article_4 />} />
+          <Route path="/article/decouvrez_comment_un_site_web_responsive_peut_transformer_votre_expérience_en_ligne" element={<Article_1 />} />
+          <Route path="/article/le_secret_pour_creer_une_application_B2B_qui_explose_vos_profits" element={<Article_2 />} />
+          <Route path="/article/les_7_etapes_cruciales_pour_un_referencement_SEO_parfait" element={<Article_3 />} />
+          <Route path="/article/une_app_iOS_et_android_entre_3_et_15_k€_comment_est_ce_possible" element={<Article_4 />} />
           <Route path="/expertise/web" element={<ExpertiseWeb />} />
           <Route path="/expertise/mobile" element={<ExpertiseMobile />} />
           <Route path="/expertise/seo" element={<ExpertiseSEO />} />

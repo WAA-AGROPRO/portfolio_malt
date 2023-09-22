@@ -1,13 +1,10 @@
 import CardWork from "../../components/CardWork/CardWork"
 import "./Projets.scss"
 import { useState, useEffect } from "react"
-import SwiperCore, { EffectCoverflow, Pagination } from "swiper"
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
-SwiperCore.use([EffectCoverflow, Pagination]);
-
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { Navigation } from 'swiper/modules';
 function Projets() {
   const [works, setWorks] = useState([]);
 
@@ -23,18 +20,7 @@ function Projets() {
   return (
     <div className="projets">
       <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }}
-        className="mySwiper"
+        navigation={true} modules={[Navigation]} className="mySwiper"
       >
         {works.map((work) => (
           <SwiperSlide key={work.id}>

@@ -23,7 +23,7 @@ const ArticleBlog = ({ article }) => {
                         {article.view} vues
                     </div>
                 </div>
-                <Link to={`/article/${article.id}`}>
+                <Link to={`/article/${article.path}`}>
                     <button className="article-blog__content__button">
                             Lire la suite
                     </button>

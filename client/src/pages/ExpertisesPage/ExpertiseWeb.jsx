@@ -73,7 +73,7 @@ function ExperitiseWeb() {
             <br />
             Ce document vous permettra de définir vos besoins et vos attentes. Il vous permettra également de définir les objectifs de votre projet et de définir les moyens à mettre en place pour les atteindre.
           </p>
-          <Link to="/coming-soon" className="expertise-page__cdc__btn">Télécharger le modèle</Link>
+          <Link target="_blank" to="https://petite-wrist-5e0.notion.site/Cahier-des-charges-Web-WAA-6d50340687f54541a29a8753591c6d12?pvs=4" className="expertise-page__cdc__btn">Télécharger le modèle</Link>
         </div>
         
       </section> 

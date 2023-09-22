@@ -4,6 +4,7 @@
       "title": "Découvrez comment un site web responsive peut transformer votre expérience en ligne !",
       "description": "Lorsqu’il s’agit de créer un site web pour votre entreprise, il est important de tenir compte de la façon dont les gens accèdent à Internet.",
       "image": "../assets/article_1.webp",
+      "path": "decouvrez_comment_un_site_web_responsive_peut_transformer_votre_expérience_en_ligne", 
       "view": "1.5k",
         "date": "2023-04-21"
     },
@@ -12,6 +13,7 @@
         "title": "Le secret pour créer une application B2B qui explose vos profits !",
         "description": "Développer une application B2B (Business to Business) est un atout pour votre entreprise. Vous pouvez ainsi améliorer la relation client, automatiser des tâches.",
         "image": "../assets/article_2.webp",
+        "path": "le_secret_pour_creer_une_application_B2B_qui_explose_vos_profits",
         "view": "2.3k",
         "date": "2023-06-08"
     },
@@ -20,6 +22,7 @@
         "title": "Les 7 étapes cruciales pour un référencement SEO parfait",
         "description": "Améliorez la visibilité de votre site web en suivant ces étapes pour un référencement SEO optimal. Augmentez le trafic organique et atteignez un public plus large.",
         "image": "../assets/article_3.webp",
+        "path": "les_7_etapes_cruciales_pour_un_referencement_SEO_parfait",
         "view": "1.2k",
         "date": "2023-07-03"
       },
@@ -28,6 +31,7 @@
         "title": "Une app iOS et Android entre 3 et 15 k€, comment est-ce possible ?",
         "description": "WAA innove en concevant des outils mobile pour nos clients. Pour créer des applications à vos cotés, nous utilisons notre logiciel de création d'application FlutterFlow et Firebase.",
         "image": "../assets/article_4.webp",
+        "path": "une_app_iOS_et_android_entre_3_et_15_k€_comment_est_ce_possible",
         "view": "4.5k",
         "date": "2023-08-04"
       }
